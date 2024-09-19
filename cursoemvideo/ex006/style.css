@@ -1,0 +1,17 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+div#area{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal 20pt arial;
+    text-align: center;
+    cursor: pointer;
+}
