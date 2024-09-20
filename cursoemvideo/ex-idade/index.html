@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Idade</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main id="principio">
+        <section id="box">
+            <p>
+                <label for="idade">Ano de Nascimento</label>
+                <input type="number" name="idade" id="idade" required oninput="this.value = this.value.slice(0, 4);">
+            </p>    
+            <p>
+                <label for="sex">Gênero:</label>
+                <input type="radio" name="sex" id="mas">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="sex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" id="botao" onclick="Carregar()">
+            </p>
+            <div class="container">
+                <img src="" alt="img" id="imagem">
+                <div id="resultado">...</div>
+            </div>
+        </section>
+    </main>
+    <footer id="rodape">
+        <p>Ivan Fuziyama</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
