@@ -41,12 +41,13 @@ input#botao{
     align-items: center;
     flex-direction: column;
 }
-img#imagem{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+select#tab{
+    margin: 10px;
+    width: 100px;
 }
-div#resultado{margin: 10px 0;}
+div#fim{
+    margin: 0 10px;
+}
 footer#rodape{
     text-align: center;
     font-weight: 500;
