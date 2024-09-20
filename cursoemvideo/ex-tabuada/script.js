@@ -1,7 +1,6 @@
 function Calcular(){
     var n = Number(document.getElementById('numero').value)
     var tab = document.getElementById('tab')
-    var f = document.getElementById('fim')
     tab.innerHTML = ''
 
     for(var x = 0;x <= 10;x++){
