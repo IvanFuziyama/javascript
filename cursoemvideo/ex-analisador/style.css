@@ -32,6 +32,7 @@ section#box{
     border-radius: 5px;
 }
 section#box p{margin: 10px;}
+select#tab{width: 150px;}
 input#botao{
     cursor: pointer;
     padding: 3px;
