@@ -28,7 +28,7 @@ section#box{
     flex-direction: column;
     background-color: beige;
     width: 500px;
-    max-height: 350px;
+    max-height: 800px;
     border-radius: 5px;
 }
 section#box p{margin: 10px;}
